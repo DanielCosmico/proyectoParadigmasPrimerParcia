@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Mesas Billar</title>
+</head>
+<body>
+    <table>
+        <tr>
+          <th>Mesa 1</th>
+          <th>Mesa 2</th>
+          <th>Mesa 3</th>
+        </tr>
+        <tr>
+          <td><img src="mesaOFF.png" id="mesa1" onclick="interruptor('mesa1', 'ini1', 'fin1', 'tot1')"></td>
+          <td><img src="mesaOFF.png" id="mesa2" onclick="interruptor('mesa2', 'ini2', 'fin2', 'tot2')"></td>
+          <td><img src="mesaOFF.png" id="mesa3" onclick="interruptor('mesa3', 'ini3', 'fin3', 'tot3')"></td>
+        </tr>
+        <tr>
+          <td>
+              <p id="ini1">Hora inicio: </p>
+              <p id="fin1">Hora final: </p>
+              <p id="tot1">Total:</p>
+          </td>
+          <td>
+            <p id="ini2">Hora inicio: </p>
+            <p id="fin2">Hora final: </p>
+            <p id="tot2">Total:</p>
+          </td>
+          <td>
+            <p id="ini3">Hora inicio: </p>
+            <p id="fin3">Hora final: </p>
+            <p id="tot3">Total:</p>
+          </td>
+        </tr>
+        <tr>
+            <th>Mesa 4</th>
+            <th>Mesa 5</th>
+            <th>Mesa 6</th>
+          </tr>
+          <tr>
+            <td><img src="mesaOFF.png" id="mesa4" onclick="interruptor('mesa4', 'ini4', 'fin4', 'tot4')"></td>
+            <td><img src="mesaOFF.png" id="mesa5" onclick="interruptor('mesa5', 'ini5', 'fin5', 'tot5')"></td>
+            <td><img src="mesaOFF.png" id="mesa6" onclick="interruptor('mesa6', 'ini6', 'fin6', 'tot6')"></td>
+          </tr>
+          <tr>
+            <td>
+                <p id='ini4'>Hora inicio: </p>
+                <p id='fin4'>Hora final: </p>
+                <p id='tot4'>Total:</p>
+            </td>
+            <td>
+              <p id='ini5'>Hora inicio: </p>
+              <p id='fin5'>Hora final: </p>
+              <p id='tot5'>Total:</p>
+            </td>
+            <td>
+              <p id='ini6'>Hora inicio: </p>
+              <p id='fin6'>Hora final: </p>
+              <p id='tot6'>Total:</p>
+            </td>
+          </tr>
+      </table>
+
+      <script src="script.js"></script>
+</body>
+</html>
